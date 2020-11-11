@@ -1,0 +1,42 @@
+.banner-container {
+    overflow: hidden;
+}
+
+.banner-main {
+    position: relative;
+}
+
+.banner-main img {
+    max-height: 400px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.banner-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(97, 97, 97, 0.5);
+}
+
+.banner-overlay button {
+    border: 0;
+    outline: none;
+    padding: 12px 36px;
+    background-color: #3a3a3a;
+    color: #FFF;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: .25s;
+}
+.banner-overlay button:hover {
+    background-color: #424242;
+    transform: translateY(-4px)
+}
